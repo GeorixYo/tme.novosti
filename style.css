@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: 'oswald';
+    src: url('./font/Oswald-Medium.ttf');
+}
+@font-face {
+    font-family: 'oswald-light';
+    src: url('./font/Oswald-Light.ttf');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CCFDF6;
+    font-family: oswald;
+    height: calc(100vh-65px);
+    width: calc(100vw - 30px);
+
+}
+#mainDiv{
+    width: calc(100vw - 30px);
+}
+h1{
+    color: #BA0F0F;
+    font-family: oswald;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 59.28px;
+    text-align: center;
+}
+h2{
+    font-family: oswald-light;
+    font-size: 20px;
+    /* font-weight: 700;
+    line-height: 20.52px; */
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+video{
+    /* display: block; */
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid gray;
+    height: 500px;
+    /* position: absolute; */
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+button{
+    width: 283px;
+    height: 58px;
+    border-radius: 50px;
+    border: 1px;
+    background-color: #18B9CE;
+    font-family: oswald;
+    font-size: 25px;
+    /* font-weight: 700;
+    line-height: 37.05px; */
+    text-align: center;
+    color: white;
+}
+h1,h2,#button{
+    text-align: center
+}
+#telegMark {
+    transform: translateY(4px);
+}
+button:hover{
+    width: 300px;
+    height: 65px;
+    background-color: #45CADC;
+}
+
+.blocks { 
+    margin-top: 100px; 
+    display: inline-block;
+
+  }  
+#newsBlock{
+    vertical-align:top;
+    margin-top: 200px;     
+}
+footer > div {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 70px;
+    width: 100vw;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+}
+#buttonSign{
+    text-decoration: none;
+}
+p{
+    margin-left: 30px;
+    font-family: oswald-light;
+}
+a{
+    color: white;
+}
+#telegMarkBott{
+    height: 20px;
+    margin-right: 10px;
+    transform: translateY(3px);
+}
+@media screen and (max-width: 1060px) {  
+
+    #newsBlock{
+        vertical-align:top;
+        margin-top: 0px;
+        margin-bottom: 150px;     
+    }
+    #videoBlock{
+        margin-top: 20px;
+        /* margin: 0 auto; */
+        width: calc(100vw);
+        height: 520px;
+        display: flex;
+        justify-content: center;
+    }
+    video{
+        margin: 0 auto;
+    }
+    .blocks{
+        margin-top: 0px;
+        display: block;
+        width: 100vw;
+    }
+    #mainPic{
+        width: calc(100vw - 30px);
+        
+    }
+}
